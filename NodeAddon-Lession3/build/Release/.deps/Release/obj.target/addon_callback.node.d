@@ -1,0 +1,1 @@
+cmd_Release/obj.target/addon_callback.node := g++ -shared -pthread -rdynamic -m64  -Wl,-soname=addon_callback.node -o Release/obj.target/addon_callback.node -Wl,--start-group Release/obj.target/addon_callback/addon.o -Wl,--end-group 

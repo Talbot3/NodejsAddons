@@ -1,0 +1,1 @@
+cmd_Release/obj.target/function_add_by_obj.node := g++ -shared -pthread -rdynamic -m64  -Wl,-soname=function_add_by_obj.node -o Release/obj.target/function_add_by_obj.node -Wl,--start-group Release/obj.target/function_add_by_obj/oop_demo_passing_wrap/AddObj.o Release/obj.target/function_add_by_obj/oop_demo_passing_wrap/bind_add_obj.o -Wl,--end-group 

@@ -1,0 +1,1 @@
+cmd_Release/obj.target/function_callback.node := g++ -shared -pthread -rdynamic -m64  -Wl,-soname=function_callback.node -o Release/obj.target/function_callback.node -Wl,--start-group Release/obj.target/function_callback/add_function_async.o -Wl,--end-group 

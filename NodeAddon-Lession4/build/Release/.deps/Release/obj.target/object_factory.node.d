@@ -1,0 +1,1 @@
+cmd_Release/obj.target/object_factory.node := g++ -shared -pthread -rdynamic -m64  -Wl,-soname=object_factory.node -o Release/obj.target/object_factory.node -Wl,--start-group Release/obj.target/object_factory/object_factory.o -Wl,--end-group 

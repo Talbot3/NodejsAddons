@@ -1,0 +1,1 @@
+cmd_Release/obj.target/j2c_add.node := g++ -shared -pthread -rdynamic -m64  -Wl,-soname=j2c_add.node -o Release/obj.target/j2c_add.node -Wl,--start-group Release/obj.target/j2c_add/J2CFunction.o -Wl,--end-group 

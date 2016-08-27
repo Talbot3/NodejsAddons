@@ -1,0 +1,1 @@
+cmd_Release/obj.target/J2Cadd.node := g++ -shared -pthread -rdynamic -m64  -Wl,-soname=J2Cadd.node -o Release/obj.target/J2Cadd.node -Wl,--start-group Release/obj.target/J2Cadd/J2CFunction.o -Wl,--end-group 
